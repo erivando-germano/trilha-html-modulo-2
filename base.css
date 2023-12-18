@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #3498db;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ecf0f1;
+}
+
+.header {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    text-align: center; /* Centraliza o texto sobre a imagem */
+    margin-top: auto;
+}
+
+#header-index {
+    background-image: url('./imagens/header-index.png');
+}
+
+#header-sobre {
+    background-image: url('./imagens/header-sobre.jpeg');
+}
+
+#header-horario {
+    background-image: url('./imagens/header-horario.png');
+}
+
+#header-contato {
+    background-image: url('./imagens/header-contato.png');
+}
+
+
+.content {
+    background-color: #ecf0f1;
+    min-height: 300px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.footer {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #3498db;
+}
+
+.footer span {
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Adiciona estilo específico para as linhas da tabela */
+.horarios-box table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.horarios-box th, .horarios-box td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.horarios-box th {
+    background-color: #f2f2f2;
+}
